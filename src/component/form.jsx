@@ -13,7 +13,8 @@ function XDisplayName() {
   };
 
   return (
-    <>
+    <div>
+      <h1>Full Name Display</h1>
       <form onSubmit={handleSubmit}>
         <label>
           First Name:
@@ -39,7 +40,7 @@ function XDisplayName() {
       </form>
 
       {fullName && <p>Full Name: {fullName}</p>}
-    </>
+    </div>
   );
 }
 
